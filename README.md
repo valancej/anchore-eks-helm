@@ -35,7 +35,8 @@ postgresql:
   imageTag: v.0.5.0-latest
   imagePullPolicy: IfNotPresent
 anchoreGlobal:
-  image: 709373726912.dkr.ecr.us-east-1.amazonaws.com/e4506d98-2de6-4375-8d5e-10f8b1f5d7e3/cg-3671661136/docker.io/anchore/anchore-engine:v.0.5.0-latest
+  image: 709373726912.dkr.ecr.us-east-1.amazonaws.com/e4506d98-2de6-4375-8d5e-10f8b1f5d7e3/cg-3671661136/docker.io/anchore/anchore-engine:
+  imageTag: v.0.5.0-latest
   imagePullPolicy: IfNotPresent
 ```
 
@@ -81,7 +82,7 @@ Ensure you have the latest Helm Charts.
 
 Run the following command to install the Anchore Engine Helm chart in your EKS cluster
 
-`- helm install helm install --name anchore-engine -f values.yaml stable/anchore-engine`
+`helm install helm install --name anchore-engine -f values.yaml stable/anchore-engine`
 
 
 
