@@ -35,7 +35,7 @@ postgresql:
   imageTag: v.0.5.0-latest
   imagePullPolicy: IfNotPresent
 anchoreGlobal:
-  image: 709373726912.dkr.ecr.us-east-1.amazonaws.com/e4506d98-2de6-4375-8d5e-10f8b1f5d7e3/cg-3671661136/docker.io/anchore/anchore-engine:
+  image: 709373726912.dkr.ecr.us-east-1.amazonaws.com/e4506d98-2de6-4375-8d5e-10f8b1f5d7e3/cg-3671661136/docker.io/anchore/anchore-engine
   imageTag: v.0.5.0-latest
   imagePullPolicy: IfNotPresent
 ```
